@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "structure_conflict_resolver"
+
+filename = ARGV[0]
+resolver = StructureConflictResolver::Resolver.new(filename)
+resolver.resolve!
