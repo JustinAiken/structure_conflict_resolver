@@ -2,5 +2,5 @@ source "https://rubygems.org"
 
 gemspec
 
-gem "pry-coolline"
+gem "rake"
 gem "coveralls", require: false
